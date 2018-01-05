@@ -1,0 +1,8 @@
+ CREATE TABLE `noticias` (
+`id` INT auto_increment ,
+`titulo` VARCHAR( 100 ) NOT NULL DEFAULT 'No hay titulo',
+`categoria` VARCHAR( 100 ) NOT NULL DEFAULT '',
+`fecha` varchar(60) not null,
+`noticia` VARCHAR( 4000 ) NOT NULL DEFAULT 'No hay noticia',
+PRIMARY KEY ( `id` )
+) ENGINE = MYISAM 

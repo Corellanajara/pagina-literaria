@@ -1,0 +1,25 @@
+
+<!-- saved from url=(0045)http://localhost:82/enrique/nueva_noticia.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body>La noticia se añadió correctamente a la base de datos. 
+  
+<form action="http://localhost:82/enrique/nueva_noticia.php" method="post" enctype="multipart/form-data"> <!-- Creamos el formulario, utilizando la etiqueta form, cuyo atributo action="" indicará donde se procesará el formulario --> 
+    Título de la noticia: <input name="titulo" type="text"> <br>    
+    Imagen de la noticia<input type="file" name="archivo" id="archivo">
+    <br>
+    <p>
+    <label>Categoría 
+    <select name="categoria" id="categoria">
+      <option>Deporte</option>
+      <option>Ciencia</option>
+      <option>Entretenimiento</option>
+    </select>
+    </label>
+  </p>
+
+    Texto de la noticia:  <textarea name="texto"></textarea> <br> 
+    <input type="submit" name="submit" value="Añadir noticia">
+</form>
+<a href="http://localhost:82/enrique/pagina.php">Volver a inicio</a>
+
+
+El archivo fue subido con éxito.</body></html>
